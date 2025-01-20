@@ -1,0 +1,40 @@
+=============== Sep 2, 2024 (UTC) ===============
+06:11:09.579927 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:11:09.584606 db@open opening
+06:11:09.585693 version@stat F·[] S·0B[] Sc·[]
+06:11:09.587717 db@janitor F·2 G·0
+06:11:09.587754 db@open done T·3.133483ms
+=============== Sep 4, 2024 (UTC) ===============
+02:27:58.049235 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:27:58.049867 version@stat F·[] S·0B[] Sc·[]
+02:27:58.049931 db@open opening
+02:27:58.050361 journal@recovery F·1
+02:27:58.053121 journal@recovery recovering @1
+02:27:58.062126 memdb@flush created L0@2 N·147 S·1KiB "hll..nfo,v51":"sys..n\x01\x02,v59"
+02:27:58.062921 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+02:27:58.072617 db@janitor F·3 G·0
+02:27:58.072797 db@open done T·22.842774ms
+=============== Dec 16, 2024 (CST) ===============
+16:01:15.234564 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:01:15.234564 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+16:01:15.234564 db@open opening
+16:01:15.234564 journal@recovery F·1
+16:01:15.234564 journal@recovery recovering @3
+16:01:15.377505 memdb@flush created L0@5 N·6 S·236B "hll..nfo,v149":"sys..nfo,v151"
+16:01:15.377578 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+16:01:15.551290 db@janitor F·4 G·0
+16:01:15.551290 db@open done T·316.7254ms
+16:27:51.765564 db@close closing
+16:27:51.766067 db@close done T·503.4µs
+=============== Dec 18, 2024 (CST) ===============
+15:39:40.319613 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:39:40.333875 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:39:40.333875 db@open opening
+15:39:40.333875 journal@recovery F·1
+15:39:40.333875 journal@recovery recovering @6
+15:39:40.399130 memdb@flush created L0@8 N·3 S·170B "hll..nfo,d158":"hll8\x00n\x01\x0e,d156"
+15:39:40.399130 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+15:39:40.555095 db@janitor F·5 G·0
+15:39:40.555095 db@open done T·221.2197ms
+15:39:40.671140 db@close closing
+15:39:40.671680 db@close done T·540.5µs
